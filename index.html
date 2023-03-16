@@ -7,8 +7,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>테트리스</title>
     <script src="main.js"></script>
+
+
+    <style>
+        .canvas_box{height:50px; width:300px; border: 1px solid black; }
+        button {
+            height: 40px;
+            margin-left: 20px;
+            margin-top: 5px;
+        }
+    </style>
 </head>
 <body>
-    <canvas id="canvas1" style="border:1px solid;" height="600" width="300">This browser doesn't support canvas</canvas>
+    <canvas id="canvas1" style="border:1px solid;"  height="600" width="300">This browser doesn't support canvas</canvas>
+    <div class="canvas_box">
+        <button>
+            <span>좌</span>
+        </button>
+        <button>
+            <span>우</span>
+        </button>
+        <button>
+            <span>회전</span>
+        </button>
+        <button>
+            <span>하강</span>
+        </button>
+    </div>
 </body>
 </html>
